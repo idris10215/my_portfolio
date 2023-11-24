@@ -1,0 +1,322 @@
+.my-logo {
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.im-idris {
+    padding-top: 40px;
+    font-size: 4rem;
+    font-family: 'Michroma', sans-serif;
+    font-weight: 800;
+}
+
+.about-me {
+    font-size: 1.5rem;
+    padding-bottom: 100px;
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+}
+
+.laptop {
+    width: 100%;
+    padding-bottom: 2px;
+}
+
+.container3 {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hello {
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    font-size: 3rem;
+    font-family: 'Michroma', sans-serif;
+}
+
+.my-pic {
+    height: 300px;
+}
+
+.brief-about-me {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.container4 {
+    height: 250px;
+    background-color: blueviolet;
+}
+
+.container5 {
+    position: relative;
+    top: 40px;
+    border: 2px solid lightgrey;
+    
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: white;
+}
+
+.title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-family: 'Michroma', sans-serif;
+    margin-bottom: 0;
+}
+
+.extra {
+    background-color: lightgrey;
+}
+
+.skill1,.skill2 {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px  20% ;
+
+}
+
+.code-title,.web-dev-title {
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.abt-coding,.abt-web-dev{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+
+.svg-bg {
+    height: 60px;
+    width: 60px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg {
+    height: 30px;
+}
+
+
+.container7 {
+    display: flex;
+    flex-basis: 50%;
+    gap: 5rem;
+    background-color:lightgrey;
+    padding: 2rem;
+}
+
+.my-work-imgs {
+    height: 300px;
+    width: 350px ;
+    border-radius: 50px;
+}
+
+.exp {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+
+.flex1, .flex2, .flex3 {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    height: 35px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: lightskyblue;
+    display: flex ;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container8 {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn {
+height: 60px;
+width: 180px;
+background-color: blueviolet;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.contact {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.container9 {
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footerlink {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.container10 {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    gap: 5px;
+}
+
+@media (max-width:400px){
+    .my-logo{
+        height: 30px;
+        top: 20px;
+        left: 20px;
+    }
+
+    .im-idris,.hello {
+        font-size: 2rem;
+    }
+
+    .about-me{
+        font-size: 1rem;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .laptop{
+        width: 100%;
+    }
+
+    .hello {
+        padding: 0;
+    }
+
+    .my-pic{
+        height: 180px;
+    }
+
+    .brief-about-me {
+        font-size: 0.9rem;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .title{
+        padding: 0;
+        font-size: 35px;
+        
+    }
+
+    
+    .container5 {
+        margin-left: 5px;
+        margin-right: 5px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .container6 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .skill1,.skill2{
+        padding: 10px;
+    }
+
+    .web-dev-title,.code-title{
+        font-size: 1.5rem;
+    }
+
+    .abt-web-dev,.abt-coding {
+        font-size: 0.9rem;
+        padding:0;
+    }
+
+
+    .container7{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-work-imgs{
+        height: 170px;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .exp {
+        font-size: 0.9rem;
+    }
+    .extra {
+        padding-top: 20px;
+    }
+
+    .container9 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footerlink{
+        font-size: 1.2rem;
+    }
+
+    .container10{
+        font-size: 1rem;
+    }
+}
